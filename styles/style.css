@@ -1,0 +1,252 @@
+#side {
+	background-color: red;
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+#main {
+	background-color: orange;
+	width: 70%;
+	height: 100%;
+	float: right;
+}
+
+#img-user-dp {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin: 15px 15px 5px 15px;
+	cursor: pointer;
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
+	padding: 10px;
+}
+
+#img-plus, #img-vertical-dots-1, #img-vertical-dots-2, #img-attach {
+	float: right;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+#img-vertical-dots-1 {
+    margin: 15px 25px 0px 0px;
+}
+
+#img-plus {
+    margin: 15px 5px 0px 0px;
+}
+
+#img-vertical-dots-2 {
+    margin: -20px 20px 0px 0px;
+}
+
+#img-attach {
+	margin: -20px 5px 0px 0px;
+}
+
+#chat-search {
+	text-align: center;
+	background-color: black;
+	padding: 10px 0px;
+}
+
+#input-search {
+	width: 95%;
+	border-radius: 5px;
+    background: url("../images/search.png") no-repeat;
+    background-size: 22px;
+    background-color: white;
+    padding-left: 30px;
+    background-position-x: 5px;
+    background-position-y: 3px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#img-chat-dp {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin: 15px;
+	float: left;
+	cursor: pointer;
+}
+
+#chat-list {
+	background-color: lightblue;
+	overflow-y: auto;
+	max-height: 494px;
+}
+
+#chat-list-item {
+	clear: both;
+	border-bottom: 1px black solid;
+	padding-bottom: 20px;
+}
+
+#chat-name {
+	padding-top: 20px;
+	margin: 0px;
+	display: inline-block;
+}
+
+#first-message {
+	padding-top: 5px;
+}
+
+#side header {
+	background-color: green;
+	padding-bottom: 7px;
+}
+
+#main header {
+	background-color: pink;
+	padding-bottom: 20px;
+}
+
+#last-seen {
+	padding-top: 5px;
+	margin: 0px;
+	display: inline-block;
+}
+
+#conversation-box {
+	height: 455px;
+	overflow-y: auto;
+	background-color: cornflowerblue;
+    padding: 10px 0px;
+}
+
+#main footer {
+	background-color: burlywood;
+	bottom: 0;
+	text-align: center;
+}
+
+#type-message {
+	width: 85%;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 20px 0px;
+}
+
+#img-smiley {
+    margin: 10px 0px 0px 15px;
+	float: left;
+}
+
+#img-send {
+	float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#received-message {
+	float: left;
+	clear: both;
+	margin: 5px 20px;
+	padding: 0px 20px;
+	max-width: 40%;
+	/*height: 50px;*/
+	background-color: white;
+}
+
+/*#received-message::after {
+    top: -60px;
+    left: -15px;
+    border-width: 0 15px 15px;
+    border-color: white transparent;
+    content: "";
+    position: relative;
+    border-style: solid;
+    display: block;
+    width: 0;
+}*/
+
+#sent-message {
+	float: right;
+	clear: both;
+	margin: 5px 20px;
+	padding: 0px 20px;
+	max-width: 40%;
+	/*height: 50px;*/
+	background-color: green;
+}
+
+/*#sent-message::after {
+    top: -5px;
+    left: -10px;
+    border-width: 15px 15px 0;
+    border-color: green transparent;
+    content: "";
+    position: relative;
+    border-style: solid;
+    display: block;
+    width: 0;
+}*/
+
+*::-webkit-scrollbar {
+    width: 6px!important;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.menu {
+    background-color: white;
+    box-shadow: -1px 3px 2px #888888;
+    position: absolute;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.menu ul li {
+	cursor: pointer;
+    padding: 10px 25px 10px 25px;
+}
+
+.menu ul li:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#chat-list-item:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+#expanded-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding-top: 50px;
+}
+
+#expanded-image img {
+	margin-top: 4em;
+    padding: 2em;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin: 0 1em 0 1em;
+    height: 500px;
+    width: 500px;
+}
